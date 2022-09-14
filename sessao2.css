@@ -3,13 +3,16 @@
     height: 25rem;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .container1 {
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    padding: 0 1rem;
+    align-items: center;
+    padding: 1.5rem;
 }
 .container1 button {
     color: #001623;
@@ -21,6 +24,14 @@
 .container1 button:hover {
     box-shadow: 1px 1px 15px #001623;
 }
+.container2 {
+    display: flex;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+.cards_produtos img {
+    height: 155px;
+}
 .cards_produtos {
     border: 1px solid #001623;
     display: flex;
@@ -30,10 +41,15 @@
     border-radius: 16px;
     overflow: hidden;
     gap: 0.5rem;
+    width: 8.5rem;
+    cursor: pointer; 
+}
+.cards_produtos:hover {
+
 }
 .cards_produtos button {
     color: #fff;
     background: #001623;
-    padding: 0 0.5rem;
-    cursor: pointer; 
+    padding: 0 0.2rem;
+    cursor: pointer;
 }
