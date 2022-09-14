@@ -1,0 +1,54 @@
+.sessao1 {
+    background: linear-gradient(#000, #28282898, #000);
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 11rem;
+    width: 16rem;
+    background: #001623;
+    border-radius: 16px;
+    transition: 0.1s;
+}
+.card1:hover {
+    box-shadow: 8px 8px 15px #000;
+    height: 11.1rem;
+}
+.card1 strong {
+    font-size: 30pt;
+}
+.card1 p {
+    font-size: 10pt;
+}
+.card1 button {
+    background: #fff;
+    color: #001623;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 11pt;
+    padding: 1rem;
+}
+.card1 button:hover {
+    box-shadow: 8px 8px 15px #000;
+}
+.card2 {
+    height: 20.8rem;
+    border: 1px solid #001623;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.card2:hover {
+    box-shadow: 8px 8px 15px #000;
+    height: 20.9rem;
+}
