@@ -14,13 +14,13 @@
     gap: 1.5rem;
     height: 11rem;
     width: 16rem;
-    background: #001623;
+    background: transparent;
+    border: 1px solid #001623;
     border-radius: 16px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .card1:hover {
-    box-shadow: 8px 8px 15px #000;
-    height: 11.1rem;
+    filter: drop-shadow(0 0 5px);
 }
 .card1 strong {
     font-size: 30pt;
@@ -29,16 +29,17 @@
     font-size: 10pt;
 }
 .card1 button {
-    background: #fff;
-    color: #001623;
+    background: transparent;
+    color: #fff;
     border-radius: 16px;
+    border: 1px solid #001623;
     cursor: pointer;
     transition: 0.3s;
     font-size: 11pt;
     padding: 1rem;
 }
 .card1 button:hover {
-    box-shadow: 8px 8px 15px #000;
+    filter: drop-shadow(0 0 5px);
 }
 .card2 {
     height: 20.8rem;
@@ -49,6 +50,6 @@
     transition: 0.1s;
 }
 .card2:hover {
-    box-shadow: 8px 8px 15px #000;
+    filter: drop-shadow(0 0 5px);
     height: 20.9rem;
 }

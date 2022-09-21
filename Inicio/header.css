@@ -74,13 +74,15 @@ header a {
     height: 2.5rem;
     transition: 1s;
     z-index: 0;
+    filter: drop-shadow(0 0 10px);
 }
 .pesquisa input {
     padding: 0.5rem 1rem;
     border: 2px solid #001623;
     border-radius: 10px;
-    color: #001623;
+    color: #fff;
     width: 100%;
+    background: transparent;
 }
 /*Animações do header ---------------------*/
 header a:hover, header h1:hover {
