@@ -48,6 +48,7 @@ header h1 {
 header ul {
     display: flex;
     align-items: center;
+    transition: 0.4s;
 }
 header a {
     transition: 0.3s;
@@ -57,8 +58,8 @@ header a {
     padding: 1rem;
     cursor: pointer;
 }
-#lupa:hover {
-
+header ul:hover {
+    filter: drop-shadow(0 0 5px);
 }
 /*Barra de pesquisa flutuante*/
 .pesquisa {
@@ -74,7 +75,7 @@ header a {
     height: 2.5rem;
     transition: 1s;
     z-index: 0;
-    filter: drop-shadow(0 0 10px);
+    filter: drop-shadow(0 0 3px);
 }
 .pesquisa input {
     padding: 0.5rem 1rem;
@@ -84,7 +85,7 @@ header a {
     width: 100%;
     background: transparent;
 }
-/*Animações do header ---------------------*/
+/*Animaï¿½ï¿½es do header ---------------------*/
 header a:hover, header h1:hover {
     color: #3fb6ff;
 }
