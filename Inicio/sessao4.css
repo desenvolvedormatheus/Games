@@ -16,7 +16,7 @@
     background: transparent;
     border: 1px solid #001623;
     border-radius: 16px;
-    transition: 0.2s;
+    filter: drop-shadow(0 0 5px);
     padding: 1rem;
 }
 .card3 button {
@@ -32,9 +32,6 @@
 .card3 strong {
     font-size: 2rem;
 }
-.card3:hover {
-    filter: drop-shadow(0 0 5px);
-}
 .card3 button:hover, .card4 img:hover {
     filter: drop-shadow(0 0 5px);
 }
@@ -46,4 +43,5 @@
     border-radius: 13px;
     transform: rotate(10deg);
     cursor: pointer;
+    transition: 0.4s;
 }
